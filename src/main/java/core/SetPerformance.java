@@ -10,7 +10,7 @@ public class SetPerformance {
 	              
 	              // HashSet add
 	              long startTime = System.nanoTime();
-	              	for (int i = max; i >= 0; i--) hashSet.add(i);
+	              for (int i = max; i >= 0; i--) hashSet.add(i);
 	              long endTime = System.nanoTime();
 	              long duration = endTime - startTime;
 	              System.out.println("HashSet add: \t\t" + duration);
@@ -18,7 +18,7 @@ public class SetPerformance {
 	              
 	              // LinkedHashSet add
 	              startTime = System.nanoTime();
-	              	for (int i = max; i >= 0; i--) linkedHashSet.add(i); 
+	              for (int i = max; i >= 0; i--) linkedHashSet.add(i); 
 	              endTime = System.nanoTime();
 	              duration = endTime - startTime;
 	              System.out.println("LinkedHashSet add: \t" + duration);
@@ -26,7 +26,7 @@ public class SetPerformance {
 
 	              // TreeSet add
 	              startTime = System.nanoTime();
-	              	for (int i = max; i >= 0; i--) treeSet.add(i);
+	              for (int i = max; i >= 0; i--) treeSet.add(i);
 	              endTime = System.nanoTime();
 	              duration = endTime - startTime;
 	              System.out.println("TreeSet add:  \t\t" + duration);
